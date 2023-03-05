@@ -1,4 +1,4 @@
-module github.com/dzeleniak/template
+module github.com/dzeleniak/go-gin-mysql-template
 
 go 1.18
 
