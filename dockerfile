@@ -15,4 +15,4 @@ RUN go install github.com/githubnemo/CompileDaemon
 
 EXPOSE 8000
 
-ENTRYPOINT CompileDaemon -command="./go-gin-mysql-template"
+ENTRYPOINT CompileDaemon -command="./template"
