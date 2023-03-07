@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 
+	"github.com/dzeleniak/go-gin-mysql-template/server"
 	"github.com/joho/godotenv"
 )
 
@@ -16,4 +17,6 @@ func init() {
 func main() {
 	// Connect database
 	// Start Server
+	server.Init()
+	log.Println("Test")
 }
